@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="./estilo.css">
+    <title>Carnes Gianni</title>
+
+</head>
+
+<body class="bodyIndex">
+    <div class="titulos">
+        <img src="./media/CarnesGianniBlanco.png" alt="">
+        <h2 class="titulo">Carnes Gianni</h2>
+    </div>
+    <header class="container-fluid">
+
+
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <a class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
+                    type="button" role="tab" aria-controls="pills-home" aria-selected="true">Productos</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
+                    type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Carrito</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"
+                    type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Contacto</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" id="pills-clima-tab" data-bs-toggle="pill" data-bs-target="#pills-clima"
+                    type="button" role="tab" aria-controls="pills-clima" aria-selected="false">Clima</a>
+            </li>
+        </ul>
+
+
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
+                tabindex="0">
+
+
+
+                <main class="productos" id="contenedor">
+
+                    <div class="card" style="width: 18rem;">
+                        <img src="./media/chorizo.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Chorizo</h5>
+                            <p class="card-text">Los chorizos a la parrilla siempre se suelen servir antes de la llegada
+                                de la carne
+                                en un asado. Pueden ser de carne de cerdo en su totalidad o con mezcla de carne de vaca.
+                                Pueden
+                                servirce acompañados por una salsa criolla o un chimichurri.</p>
+                            <p class="card-text">El Kilo: <span class="precio"> $980 </span></p>
+                            <button class="btn btn-success button" id="boton1">Añadir al carrito</button>
+                        </div>
+                    </div>
+
+
+
+                    <div class="card" style="width: 18rem;">
+                        <img src="./media/chinchu.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Chinchulin</h5>
+                            <p class="card-text">Es particularmente el intestino delgado de la vaca. La palabra
+                                chinchulín proviene
+                                de la voz quechua “chúnchull” y ha hecho referencia históricamente al triperío y
+                                particularmente al
+                                intestino delgado de la vaca. Muy sabrosos para plancha o parrilla.</p>
+                            <p class="card-text ">El Kilo: <span class="precio"> $750 </span></p>
+                            <button class="btn btn-success button" id="boton2">Añadir al carrito</button>
+                        </div>
+                    </div>
+
+
+                    <div class="card" style="width: 18rem;">
+                        <img src="./media/tira.png" class="card-img-top" alt="tira de asado">
+                        <div class="card-body">
+                            <h5 class="card-title">Tira de Asado</h5>
+                            <p class="card-text">El asado de tira, tira de asado o costillar es uno de los cortes con
+                                más sabor por
+                                estar pegado al hueso. Esta bien insertado en el ADN argentino.</p>
+                            <p class="card-text">El Kilo: <span class="precio"> $1300 </span></p>
+                            <button class="btn btn-success button" id="boton3">Añadir al carrito</button>
+                        </div>
+                    </div>
+
+
+
+                    <div class="card" style="width: 18rem;">
+                        <img src="./media/vacio.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Vacio</h5>
+                            <p class="card-text">Es un corte situado en la parte lateral de los cuartos traseros es una
+                                carne
+                                fibrosa, tierna y bastante jugosa. Dejar cuerito que lo cubre, que una vez hecho queda
+                                crujiente y
+                                realza el exquisito sabor de este corte.</p>
+                            <p class="card-text">El Kilo: <span class="precio"> $1300 </span></p>
+                            <button class="btn btn-success button" id="boton4">Añadir al carrito</button>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="card" style="width: 18rem;">
+                        <img src="./media/entraña.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Entraña</h5>
+                            <p class="card-text">Corte situado en la parte del diafragma que se encuentra pegado a las
+                                costillas. Es
+                                de rápida cocción así que hay que estar pendiente a la hora de asarla. Su exquisito
+                                sabor y al ser
+                                crujiente a los sentidos, hacen de la entraña una opción indispensable para la
+                                parrillada.</p>
+                            <p class="card-text">El Kilo: <span class="precio"> $1500 </span></p>
+                            <button class="btn btn-success button" id="boton5">Añadir al carrito</button>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="card" style="width: 18rem;">
+                        <img src="./media/matambre.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Matambre</h5>
+                            <p class="card-text">Jamás puede faltar en una parrillada. El matambre se extrae de una zona
+                                ubicada
+                                entre el cuero y el costillar. Al ser fino y crujiente tiene muchos fanáticos, puede
+                                prepararse
+                                también a la pizza, con queso y salsa de tomate. Ideal para cortar un pan y comer en
+                                sandwich.</p>
+                            <p class="card-text">El Kilo: <span class="precio"> $1400 </span></p>
+                            <button class="btn btn-success button" id="boton6">Añadir al carrito</button>
+                        </div>
+                    </div>
+
+
+
+                    <div class="card" style="width: 18rem;">
+                        <img src="./media/colita.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Colita de Cuadril</h5>
+                            <p class="card-text">Carne sin hueso situalda en la parte baja del cuarto trasero del
+                                animal. Tiene un
+                                gran sabor, es un corte relativamente magro y su relación precio-producto la convierten
+                                en una de
+                                las opciones más inteligentes para hacer una parrillada.</p>
+                            <p class="card-text">El Kilo: <span class="precio"> $1490 </span></p>
+                            <button class="btn btn-success button" id="boton7">Añadir al carrito</button>
+                        </div>
+                    </div>
+                </main>
+
+            </div>
+            <div class="tab-pane fade carrito" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"
+                tabindex="0">
+
+                <table class="table table-dark table-striped">
+                    <thead>
+                        <tr class="text-primary">
+                            <th scope="col">#</th>
+                            <th scope="col">Producto</th>
+                            <th scope="col">Precio</th>
+                            <th scope="col">Cantidad</th>
+                        </tr>
+                    </thead>
+                    <tbody class="tbody">
+
+
+                    </tbody>
+
+                </table>
+                <br>
+                <div class="row">
+                    <div class="col">
+                        <h3 class="itemCarTotal text-white">Total: 0</h3>
+                    </div>
+                    <div class="col d-flex justify content-end"> <button class="btn btn-success"
+                            id="btnSwal">Comprar</button></div>
+                </div>
+
+            </div>
+            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"
+                tabindex="0"> 
+                <div>
+                <p class="contactoP">Carnes Gianni <br>
+                    🥩Empresa familiar con trayectoria de 60 años en el rubro. <br>
+                    🥩 Conocé nuestros productos!. <br>
+                    👉🏼 Bv. Illia 155- Mercado Sud - Córdoba. <br>
+                    👇🏻Escribinos</p>
+                <a href="whatsapp" class="linkWhats" id="whatsapp"> Contacto WhatsApp </a> 
+            </div>
+            </div>
+            
+                <div class="tab-pane fade" id="pills-clima" role="tabpanel" aria-labelledby="pills-clima-tab"
+                tabindex="0"> 
+                
+                <h1>Esta el Clima para Asado? </h1>
+                <div id="contenedorClima">
+                    <div id="bodyClima">
+                    <div id="caja1">
+                        <h1 id="localizacion"></h1>
+                        <h1 id="tempValor"> </h1>
+                        
+                    </div>
+                    
+                    <div id="caja2">
+                        <h2 id="tempDescripcion"></h2>
+                        <img id="iconoClima" src="" alt="iconoClima">
+                    </div>
+                    
+                    <div id="caja3">
+                        <h2>Vientos de</h2>
+                         <h3 id="velocidadViento"></h3>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+
+    <footer>
+
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+
+        <!-- Use el segundo Scrip porque el primero no funcinaba -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script src="./fetch.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
